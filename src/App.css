@@ -1,0 +1,76 @@
+.displayCard {
+  display: flex;
+  width: 800px;
+  justify-content: space-around;
+  align-items: center;
+ 
+
+}
+
+.Card {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 150px;
+  background-color: #124164;
+  justify-content: space-between;
+
+
+  background-image: url(D:\Work\react-complex-credit-card\src\Components\logo.png);
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+  background-position: 220px 80px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 220px;
+  background-color: #124164;
+  justify-content: space-between;
+}
+
+.inputInterface {
+  margin-top: 35px;
+  display: flex;
+  height: 150px;
+  width: 300px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.inputInterface input {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+.simCardImage {
+  width: 40px;
+  height: 40px;
+}
+
+.titel {
+  align-self: flex-end;
+  color: white;
+  font-size: 20px;
+}
+::placeholder{
+  color: white;
+}
+.champ {
+  border: 0;
+  width: 100%;
+  background-color: #124164;
+  color: white;
+}
+
+.champ1 {
+  background-color: #124164;
+  color: white;
+  width: 50px;
+  border: 0;
+  align-self: flex-end;
+}
